@@ -1,0 +1,22 @@
+.appContainer {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: stretch;
+	align-items: stretch;
+	min-height: 100%;
+	.navBarFlex {
+		order: 0;
+		flex: 0 1 40px;
+		align-self: auto;
+	}
+	.contentFlex {
+		order: 0;
+		flex: 1 1 auto;
+		align-self: auto;
+		display: flex;
+		flex-direction: column;
+	}
+}
+
